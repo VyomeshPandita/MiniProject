@@ -1,0 +1,24 @@
+.home-container {
+    text-align: center;
+    margin-top: 80px;
+    }
+    h1 {
+    font-size: 2.5rem;
+    color: #1a73e8;
+    }
+    p {
+    font-size: 1.2rem;
+    color: #555;
+    }
+    .container p {
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-weight: 500;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }

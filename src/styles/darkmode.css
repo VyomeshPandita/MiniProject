@@ -1,0 +1,25 @@
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --container-bg: #1e1e1e;
+    --button-bg: #4285f4;
+    --button-hover: #357ae8;
+    }
+    body.dark-mode .container {
+    background: #1e1e1e;
+    color: white;
+    }
+    .container {
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    button {
+    background: var(--button-bg);
+    color: white;
+    }
+    button:hover {
+    background: var(--button-hover);
+    }
